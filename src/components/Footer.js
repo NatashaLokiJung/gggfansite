@@ -2,9 +2,12 @@
 import { css } from "@emotion/core";
 
 const Footer = () => {
+    const styleFooter = css`
+        display: flex;
+        justify-content: center;
+    `;
     return (
-        <div>
-            <h4>Her er footer</h4>
+        <div css={styleFooter}>
             <p>© 2006 - 2020 Grinding Gear Games</p>
         </div>
     );

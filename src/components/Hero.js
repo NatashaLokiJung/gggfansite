@@ -1,12 +1,17 @@
-import React from "react";
-import LazyHero from "react-lazy-hero";
+/** @jsxImportSource @emotion/core */
+import { css } from "@emotion/core";
+import poetwo from "../img/poetwo.jpg";
 
 const Hero = () => {
+    const styleHero = css`
+        width: 100%;
+    `;
+    const styleHeroImg = css`
+        width: 100%;
+    `;
     return (
-        <div>
-            <LazyHero imageSrc="https://unsplash.it/2000/1000">
-                <h1>Generic Startup Hype Headline</h1>
-            </LazyHero>
+        <div css={styleHero}>
+            <img src={poetwo} alt="hero" css={styleHeroImg} />
         </div>
     );
 };
