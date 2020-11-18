@@ -13,6 +13,7 @@ const Nav = () => {
             <Link to="/">Home</Link>
             <Link to="/company">Company</Link>
             <Link to="/poe">Path of Exile</Link>
+            <Link to="/poetwo">Path of Exile 2</Link>
             <Link to="/careers">Careers</Link>
             <Link to="/contact">Contact</Link>
         </div>

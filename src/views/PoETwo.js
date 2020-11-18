@@ -1,13 +1,12 @@
 /** @jsxImportSource @emotion/core */
 import { css } from "@emotion/core";
-// import NewsFeed from "../components/News";
 
-const Home = () => {
+const PoETwo = () => {
     return (
         <div>
-            <h2>Her er home</h2>
+            <h2>Poe 2</h2>
         </div>
     );
 };
 
-export default Home;
+export default PoETwo;
