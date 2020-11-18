@@ -1,5 +1,6 @@
 /** @jsxImportSource @emotion/core */
 import { css } from "@emotion/core";
+import ParralaxImg from "../components/Parralax";
 
 const Company = () => {
     return (
@@ -12,6 +13,7 @@ const Company = () => {
                 artificial intelligence and software security to industrial
                 design to professional tournament game play.
             </p>
+            <ParralaxImg />
             <p>
                 We are currently developing Path of Exile, a competitive online
                 action RPG. Much more information about this project is
