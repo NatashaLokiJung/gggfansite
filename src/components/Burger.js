@@ -2,9 +2,14 @@
 import { css } from "@emotion/core";
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faCoffee, faBars } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faCoffee, faBars);
+
 const Burger = ({ open, setOpen }) => {
     const styledBurger = css`
-        top: 30%;
         left: 2rem;
         display: flex;
         flex-direction: column;
@@ -16,17 +21,22 @@ const Burger = ({ open, setOpen }) => {
         cursor: pointer;
         padding: 0;
         z-index: 10;
-        background: red;
+        color: white;
 
         &:focus {
             outline: none;
         }
     `;
+
+    const burgerIcon = css`
+        position: absolute;
+        top: 1.1rem;
+        left: 2rem;
+        color: #a38d6d;
+    `;
     return (
         <div css={styledBurger} open={open} onClick={() => setOpen(!open)}>
-            <div />
-            <div />
-            <div />
+            <FontAwesomeIcon icon={["fas", "bars"]} css={burgerIcon} />
         </div>
     );
 };

@@ -13,17 +13,11 @@ function App() {
         flex-direction: column;
     `;
 
-    const styleWrapper = css`
-        padding: 20px 30px;
-    `;
     return (
         <div css={styleApp}>
             <Hero />
-            <div css={styleWrapper}>
-                <Nav />
-                <Main />
-            </div>
-
+            <Nav />
+            <Main />
             <Footer />
         </div>
     );

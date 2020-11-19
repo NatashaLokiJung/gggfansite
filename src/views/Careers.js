@@ -2,9 +2,14 @@
 import { css } from "@emotion/core";
 
 const Careers = () => {
+    const txtarea = css`
+        max-width: var(--txtwidth);
+        margin: 0 auto;
+        padding: var(--txtpadding);
+    `;
     return (
         <div>
-            <h4>Her er Careers</h4>
+            <h1>Careers at GGG</h1>
         </div>
     );
 };
