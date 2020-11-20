@@ -1,0 +1,78 @@
+{
+    "data": {
+        "league": [
+            {
+             
+                "name": "aotw",
+                "img": "./img/leagulogos/aotw.jpg"
+            },
+            {
+              
+                "name": "ascendancy",
+                "img": "./img/leagulogos/ascendancy.jpg"
+            },
+            {   
+               
+                "name": "betrayal",
+                "img": "./img/leagulogos/betrayal.jpg"
+            },
+            {
+               
+                "name": "blight",
+                "img": "./img/leagulogos/blight.jpg"
+            },
+            {
+               
+                "name": "cota",
+                "img": "./img/leagulogos/cota.jpg"
+            }, 
+            {
+               
+                "name": "delirium",
+                "img": "./img/leagulogos/delirium.jpg"
+            }, 
+            {
+               
+                "name": "delve",
+                "img": "./img/leagulogos/delve.jpg"
+            }, 
+            {
+               
+                "name": "harvest",
+                "img": "./img/leagulogos/harvest.jpg"
+            }, 
+            {
+               
+                "name": "heist",
+                "img": "./img/leagulogos/heist.jpg"
+            },
+            {
+               
+                "name": "legion",
+                "img": "./img/leagulogos/legion.jpg"
+            },
+            {
+               
+                "name": "synthesis",
+                "img": "./img/leagulogos/synthesis.jpg"
+            },
+            {
+               
+                "name": "tfoo",
+                "img": "./img/leagulogos/tfoo.jpg"
+            },
+            {
+               
+                "name": "theawakening",
+                "img": "./img/leagulogos/theawakening.jpg"
+            },
+            {
+               
+                "name": "wota",
+                "img": "./img/leagulogos/wota.jpg"
+            }
+            
+        ]
+      
+    }
+}

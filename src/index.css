@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap");
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+:root {
+    --txtwidth: 900px;
+    --txtpadding: 50px 30px;
+    --white: #ffffff;
+}
 
 * {
     box-sizing: border-box;
@@ -7,12 +14,15 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #a38d6d;
+    background: rgb(34, 34, 34);
 }
 
 p {
     font-size: 13px;
-    line-height: 17px;
+    line-height: 22px;
     font-weight: 400;
+    padding: 10px 0;
 }
 
 h1 {
@@ -20,6 +30,8 @@ h1 {
     font-size: 2em;
     line-height: 33px;
     font-weight: 400;
+    text-align: center;
+    padding-top: 60px;
 }
 
 h2 {
@@ -27,6 +39,7 @@ h2 {
     font-size: 1.3em;
     line-height: 22px;
     font-weight: 700;
+    padding-top: 20px;
 }
 
 h3 {
@@ -34,12 +47,14 @@ h3 {
     font-size: 1.3em;
     line-height: 22px;
     font-weight: 400;
+    padding: 15px 0;
 }
 
 h4 {
     font-family: "Asul", sans-serif;
-    font-size: 13px;
+    font-size: 18px;
     line-height: 20px;
+    font-weight: 700;
 }
 
 h5 {

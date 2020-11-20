@@ -11,19 +11,16 @@ function App() {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
+        @media (max-width: 940px) {
+            padding-top: 50px;
+        }
     `;
 
-    const styleWrapper = css`
-        padding: 20px 30px;
-    `;
     return (
         <div css={styleApp}>
             <Hero />
-            <div css={styleWrapper}>
-                <Nav />
-                <Main />
-            </div>
-
+            <Nav />
+            <Main />
             <Footer />
         </div>
     );
