@@ -1,78 +1,92 @@
 {
     "data": {
-        "league": [
+        "leagues": [
             {
-             
-                "name": "aotw",
-                "img": "./img/leagulogos/aotw.jpg"
-            },
-            {
-              
-                "name": "ascendancy",
-                "img": "./img/leagulogos/ascendancy.jpg"
-            },
-            {   
-               
-                "name": "betrayal",
-                "img": "./img/leagulogos/betrayal.jpg"
-            },
-            {
-               
-                "name": "blight",
-                "img": "./img/leagulogos/blight.jpg"
-            },
-            {
-               
-                "name": "cota",
-                "img": "./img/leagulogos/cota.jpg"
-            }, 
-            {
-               
-                "name": "delirium",
-                "img": "./img/leagulogos/delirium.jpg"
-            }, 
-            {
-               
-                "name": "delve",
-                "img": "./img/leagulogos/delve.jpg"
-            }, 
-            {
-               
-                "name": "harvest",
-                "img": "./img/leagulogos/harvest.jpg"
-            }, 
-            {
-               
                 "name": "heist",
-                "img": "./img/leagulogos/heist.jpg"
+                "img": "/img/leaguelogos/heist.jpg",
+                "link": "https://www.pathofexile.com/heist"
             },
             {
-               
+                "name": "harvest",
+                "img": "/img/leaguelogos/harvest.jpg",
+                "link": "https://www.pathofexile.com/harvest"
+            },
+            {
+                "name": "delirium",
+                "img": "/img/leaguelogos/delirium.jpg",
+                "link": "https://www.pathofexile.com/delirium"
+            },
+            {
+                "name": "metamorph",
+                "img": "/img/leaguelogos/metamorph.jpg",
+                "link": "https://www.pathofexile.com/metamorph"
+            },
+            {
+                "name": "cota",
+                "img": "/img/leaguelogos/cota.jpg",
+                "link": "https://www.pathofexile.com/exilecon/two"
+            },
+            {
+                "name": "blight",
+                "img": "/img/leaguelogos/blight.jpg",
+                "link": "https://www.pathofexile.com/blight"
+            },
+            {
                 "name": "legion",
-                "img": "./img/leagulogos/legion.jpg"
+                "img": "/img/leaguelogos/legion.jpg",
+                "link": "https://www.pathofexile.com/legion"
             },
             {
-               
                 "name": "synthesis",
-                "img": "./img/leagulogos/synthesis.jpg"
+                "img": "/img/leaguelogos/synthesis.jpg",
+                "link": "https://www.pathofexile.com/synthesis"
             },
             {
-               
-                "name": "tfoo",
-                "img": "./img/leagulogos/tfoo.jpg"
+                "name": "betrayal",
+                "img": "/img/leaguelogos/betrayal.jpg",
+                "link": "https://www.pathofexile.com/betrayal"
             },
             {
-               
-                "name": "theawakening",
-                "img": "./img/leagulogos/theawakening.jpg"
+                "name": "delve",
+                "img": "/img/leaguelogos/delve.jpg",
+                "link": "https://www.pathofexile.com/delve"
             },
             {
-               
+                "name": "incursion",
+                "img": "/img/leaguelogos/incursion.jpg",
+                "link": "https://www.pathofexile.com/incursion"
+            },
+            {
+                "name": "bestiary",
+                "img": "/img/leaguelogos/bestiary.jpg",
+                "link": "https://www.pathofexile.com/bestiary"
+            },
+            {
                 "name": "wota",
-                "img": "./img/leagulogos/wota.jpg"
+                "img": "/img/leaguelogos/wota.jpg",
+                "link": "https://www.pathofexile.com/war"
+            },
+            {
+                "name": "tfoo",
+                "img": "/img/leaguelogos/tfoo.jpg",
+                "link": "https://www.pathofexile.com/oriath"
+            },
+            {
+                "name": "aotw",
+                "img": "/img/leaguelogos/aotw.jpg",
+                "link": "https://www.pathofexile.com/atlasofworlds"
+            },
+            {
+                "name": "ascendancy",
+                "img": "/img/leaguelogos/ascendancy.jpg",
+                "link": "https://www.pathofexile.com/ascendancy"
+            },
+            {
+                "name": "theawakening",
+                "img": "/img/leaguelogos/theawakening.jpg",
+                "link": "https://www.pathofexile.com/theawakening"
             }
             
         ]
-      
     }
 }
