@@ -28,7 +28,7 @@ const Footer = () => {
     const footerBox = css`
         display: flex;
         flex-direction: column;
-        margin: 40px;
+        margin: 20px;
         width: 280px;
     `;
 
