@@ -40,6 +40,14 @@ const Footer = () => {
         font-size: 30px;
     `;
 
+    const socialIconLink = css`
+        color: #a38d6d;
+        &:hover {
+            color: white;
+            transition: 1s;
+        }
+    `;
+
     const credits = css`
         display: flex;
         flex-direction: column;
@@ -87,10 +95,38 @@ const Footer = () => {
                 <div css={footerBox}>
                     <h3>Follow Us</h3>
                     <div css={socialIcons}>
-                        <FontAwesomeIcon icon={["fab", "twitter"]} />
-                        <FontAwesomeIcon icon={["fab", "youtube"]} />
-                        <FontAwesomeIcon icon={["fab", "facebook"]} />
-                        <FontAwesomeIcon icon={["fab", "reddit-alien"]} />
+                        <a
+                            css={socialIconLink}
+                            href="https://twitter.com/pathofexile"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={["fab", "twitter"]} />
+                        </a>
+                        <a
+                            css={socialIconLink}
+                            href="https://www.youtube.com/user/grindinggear"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={["fab", "youtube"]} />
+                        </a>
+                        <a
+                            css={socialIconLink}
+                            href="https://www.facebook.com/pathofexile"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={["fab", "facebook"]} />
+                        </a>
+                        <a
+                            css={socialIconLink}
+                            href="https://www.reddit.com/r/pathofexile"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FontAwesomeIcon icon={["fab", "reddit-alien"]} />
+                        </a>
                     </div>
                 </div>
             </div>

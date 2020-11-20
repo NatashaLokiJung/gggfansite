@@ -1,10 +1,58 @@
 /** @jsxImportSource @emotion/core */
 import { css } from "@emotion/core";
+import ImageGallery from "react-image-gallery";
 
 import { Parallax } from "react-parallax";
 import scrollImg from "../img/bannerlarge.jpg";
 
 const Company = () => {
+    const galleryContainer = css`
+        max-width: 900px;
+        padding: 20px;
+        margin: 0 auto;
+    `;
+    const images = [
+        {
+            original: "/img/office/TheEntrance.jpg",
+            thumbnail: "/img/office/TheEntrance_thumb.jpg",
+        },
+        {
+            original: "/img/office/Kitchen.jpg",
+            thumbnail: "/img/office/Kitchen_thumb.jpg",
+        },
+        {
+            original: "/img/office/GuildStash.jpg",
+            thumbnail: "/img/office/GuildStash_thumb.jpg",
+        },
+        {
+            original: "/img/office/Support.jpg",
+            thumbnail: "/img/office/Support_thumb.jpg",
+        },
+        {
+            original: "/img/office/Space.jpg",
+            thumbnail: "/img/office/Space_thumb.jpg",
+        },
+        {
+            original: "/img/office/RecRoom.jpg",
+            thumbnail: "/img/office/RecRoom_thumb.jpg",
+        },
+        {
+            original: "/img/office/Office.jpg",
+            thumbnail: "/img/office/Office_thumb.jpg",
+        },
+        {
+            original: "/img/office/Office2.jpg",
+            thumbnail: "/img/office/Office2_thumb.jpg",
+        },
+        {
+            original: "/img/office/Conference.jpg",
+            thumbnail: "/img/office/Conference_thumb.jpg",
+        },
+        {
+            original: "/img/office/Level8.jpg",
+            thumbnail: "/img/office/Level8_thumb.jpg",
+        },
+    ];
     const txtarea = css`
         max-width: var(--txtwidth);
         margin: 0 auto;
@@ -37,6 +85,9 @@ const Company = () => {
                     understand what is required to make an addictive action RPG
                     with visceral combat and a complex item economy.
                 </p>
+            </div>
+            <div css={galleryContainer}>
+                <ImageGallery items={images} />
             </div>
         </div>
     );

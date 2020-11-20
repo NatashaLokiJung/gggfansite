@@ -1,8 +1,7 @@
 /** @jsxImportSource @emotion/core */
 import { css } from "@emotion/core";
-import league from "../img/leaguelogos/delirium.jpg";
 
-const Leagues = () => {
+const Leagues = ({ img, alt }) => {
     const wrapper = css`
         display: grid;
         grid-gap: 10px;
@@ -24,7 +23,7 @@ const Leagues = () => {
     return (
         <div css={wrapper}>
             <div css={wrapperBox}>
-                <img src={league} alt="league" css={wrapperImg} />
+                <img src={img} alt={alt} css={wrapperImg} />
             </div>
         </div>
     );

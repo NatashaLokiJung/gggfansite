@@ -1,5 +1,7 @@
 /** @jsxImportSource @emotion/core */
 import { css } from "@emotion/core";
+import { Parallax } from "react-parallax";
+import poetwo from "../img/poetwo.jpg";
 
 const PoETwo = () => {
     const txtarea = css`
@@ -10,11 +12,21 @@ const PoETwo = () => {
     const videoPlayer = css`
         display: flex;
         justify-content: center;
-        padding: 30px 0;
     `;
     return (
         <div>
             <h1>Path of Exile 2</h1>
+            <div css={txtarea}>
+                <p>
+                    Path of Exile 2 is a new seven-act storyline that is
+                    available alongside the original Path of Exile 1 campaign.
+                    Both the old and new storyline lead to the same shared Atlas
+                    endgame. Path of Exile 2 retains all expansion content that
+                    has been created over the last six years and introduces a
+                    new skill system, ascendancy classes, engine improvements
+                    and more.
+                </p>
+            </div>
             <div css={videoPlayer}>
                 <iframe
                     title="poetwotrailer"
@@ -26,15 +38,18 @@ const PoETwo = () => {
                     allowfullscreen
                 ></iframe>
             </div>
+            <div css={txtarea}></div>
+
+            <Parallax bgImage={poetwo} strength={500}>
+                <div style={{ height: 300 }}></div>
+            </Parallax>
+
             <div css={txtarea}>
                 <p>
-                    Path of Exile 2 is a new seven-act storyline that is
-                    available alongside the original Path of Exile 1 campaign.
-                    Both the old and new storyline lead to the same shared Atlas
-                    endgame. Path of Exile 2 retains all expansion content that
-                    has been created over the last six years and introduces a
-                    new skill system, ascendancy classes, engine improvements
-                    and more.
+                    Path of Exile 2 was revealed at ExileCon in November 2019.
+                    In the video below, Jonathan from GGG plays 14 minutes of
+                    the first act of the new campaign, voiced over by Chris
+                    Wilson, explaining some of the changes and improvements.
                 </p>
             </div>
             <div css={videoPlayer}>

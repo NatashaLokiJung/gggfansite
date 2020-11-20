@@ -1,6 +1,5 @@
 /** @jsxImportSource @emotion/core */
 import { css } from "@emotion/core";
-// import NewsFeed from "../components/News";
 
 const Home = () => {
     const txtarea = css`
@@ -15,8 +14,8 @@ const Home = () => {
                 <p>
                     This site is fanmade by Natasha "Natilo" Jung, a 2nd year
                     frontend web developer student. All the text, images and
-                    videos showcased on this site are thus NOT MY OWN and I
-                    claim no ownership over it. Everything belongs to GGG.
+                    videos showcased on this site are thus <b>NOT MY OWN</b> and
+                    I claim no ownership over it. Everything belongs to GGG.
                 </p>
                 <p>
                     My goal with this site was to improve my skills in ReactJS,
@@ -33,12 +32,13 @@ const Home = () => {
                 </p>
 
                 <p>
-                    So stay awhile, look around and always remember to stay
-                    sane, Exile.<br></br>
+                    So take a look around and don't forget to stay sane Exile!
+                    <br></br>
                 </p>
-
+                <br></br>
                 <p>
                     Kind regards,<br></br>
+                    <br></br>
                     Natasha<br></br>
                     November 20th, 2020.
                 </p>

@@ -11,6 +11,9 @@ function App() {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
+        @media (max-width: 940px) {
+            padding-top: 50px;
+        }
     `;
 
     return (
