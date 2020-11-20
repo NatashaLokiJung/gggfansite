@@ -1,7 +1,6 @@
 /** @jsxImportSource @emotion/core */
 import { css } from "@emotion/core";
 import logodark from "../img/gggdark.png";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -29,8 +28,7 @@ const Footer = () => {
     const footerBox = css`
         display: flex;
         flex-direction: column;
-        /* padding: 10px; */
-        margin: 20px;
+        margin: 40px;
         width: 280px;
     `;
 

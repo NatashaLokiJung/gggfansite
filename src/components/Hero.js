@@ -24,48 +24,37 @@ const Hero = () => {
         >
             <div>
                 <img src={kitava} alt="hero" />
-                {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
                 <img src={izaro} alt="hero" />
-                {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
                 <img src={heist} alt="hero" />
-                {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
                 <img src={legion} alt="hero" />
-                {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
                 <img src={blight} alt="hero" />
-                {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
                 <img src={harvest} alt="hero" />
-                {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
                 <img src={betrayal} alt="hero" />
-                {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
                 <img src={delve} alt="hero" />
-                {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
                 <img src={delirium} alt="hero" />
-                {/* <p className="legend">Legend 1</p> */}
             </div>
 
             <div>
                 <img src={sirus} alt="hero" />
-                {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
                 <img src={shaperelder} alt="hero" />
-                {/* <p className="legend">Legend 1</p> */}
             </div>
         </Carousel>
     );

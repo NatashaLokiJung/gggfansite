@@ -1,5 +1,3 @@
-/** @jsxImportSource @emotion/core */
-import { css } from "@emotion/core";
 import { Router } from "@reach/router";
 import Careers from "../views/Careers";
 import Company from "../views/Company";

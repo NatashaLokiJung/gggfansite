@@ -1,12 +1,11 @@
 /** @jsxImportSource @emotion/core */
 import { css } from "@emotion/core";
 import React from "react";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faCoffee, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faCoffee, faBars);
+library.add(faBars);
 
 const Burger = ({ open, setOpen }) => {
     const styledBurger = css`
