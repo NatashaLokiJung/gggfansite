@@ -86,6 +86,8 @@ const Company = () => {
                     with visceral combat and a complex item economy.
                 </p>
             </div>
+            <hr></hr>
+            <h1> The office in Auckland, New Zealand</h1>
             <div css={galleryContainer}>
                 <ImageGallery items={images} />
             </div>
